@@ -1,0 +1,138 @@
+
+/* GLOBAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Hubballi&family=Poppins:wght@500;600;700;800&family=Sansita+Swashed:wght@890&family=Stick+No+Bills:wght@200;400&family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Grape+Nuts&family=Hubballi&family=Poppins:wght@500&family=Sansita+Swashed:wght@890&family=Stick+No+Bills:wght@200;400&display=swap');
+
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section,
+span
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header{
+    /* background-image: url(/images/2.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    padding-bottom: 5px;
+}
+
+.header-logo img{
+    background-color: white;
+    border-radius: 12px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    transition: 0.5s;
+    
+}
+li:first-child{
+    margin-right: 15x;
+}
+
+li:hover{
+    transform: scale(1.5);
+}
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#logo{
+    transition: 0.5s;
+}
+#logo:hover{
+    transform:scale(1.2);
+}
+
+.galeri{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 10px;
+    
+}
+
+.baslik{
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    padding: 5px;
+    color: #6f1c19;
+    
+}
+
+
+.resimler{
+    width:303px;
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 8px;
+    
+}
+
+.resimler img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resimler:hover{
+    transform: scale(0.85);
+}

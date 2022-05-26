@@ -1,0 +1,140 @@
+
+/* GLOBAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Hubballi&family=Poppins:wght@500;600;700;800&family=Sansita+Swashed:wght@890&family=Stick+No+Bills:wght@200;400&family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&family=Grape+Nuts&family=Hubballi&family=Poppins:wght@500&family=Sansita+Swashed:wght@890&family=Stick+No+Bills:wght@200;400&display=swap');
+
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section,
+span
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header{
+    /* background-image: url(menu.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+
+}
+
+.header-logo img{
+    background-color: white;
+    border-radius: 12px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    transition: 0.5s;
+    
+}
+li:first-child{
+    margin-right: 15x;
+}
+
+li:hover{
+    transform: scale(1.5);
+}
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+#logo{
+    transition: 0.5s;
+}
+#logo:hover{
+    transform:scale(1.2);
+}
+
+.kutu{
+    width: 600px;
+    color: #003d50;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    background-color: black;
+    opacity: 84%;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: 0.6s;
+    
+    
+    
+}
+
+.kutu p{
+    margin: 20px;
+    background-color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins', sans-serif;
+}
+.kutu h2{
+    background-color: black;
+    font-family: 'Grape Nuts', cursive;
+    
+}
+
+.kutu:hover{
+    transform: scale(1.1);
+}
